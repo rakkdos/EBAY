@@ -1,0 +1,332 @@
+{
+  "id": "62d81fef-0ba3-474a-95cf-cb4feef1bdab",
+  "version": "2.0",
+  "name": "EBAY SHOES",
+  "url": "https://www.ebay.com/",
+  "tests": [{
+    "id": "fe3308d6-d01e-444f-af89-28c5bd50fe12",
+    "name": "SHOES",
+    "commands": [{
+      "id": "ee81c1c3-ee77-4aab-b302-355477b79626",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e580d2c7-3ee0-458f-95fc-33b854868fb4",
+      "comment": "",
+      "command": "type",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "shoes"
+    }, {
+      "id": "1537ec5a-bd63-4895-b2cc-19b2326c6960",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-btn",
+      "targets": [
+        ["id=gh-btn", "id"],
+        ["css=#gh-btn", "css:finder"],
+        ["xpath=//input[@id='gh-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='gh-f']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5700ef0c-b2fa-41b7-8312-e397d23a1d7d",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebea27b2-718b-4226-b12b-01e185be577a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='w4-w12']/div/input",
+      "targets": [
+        ["id=w4-w12-0[0]", "id"],
+        ["css=#w4-w12-0\\[0\\]", "css:finder"],
+        ["xpath=//input[@id='w4-w12-0[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='w4-w12']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e00adf95-9cfd-466f-b461-2b9c28c9d692",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c17efa29-2930-48bc-a086-b5ee7e70dc45",
+      "comment": "",
+      "command": "type",
+      "target": "id=w4-w12-0[0]",
+      "targets": [
+        ["id=w4-w12-0[0]", "id"],
+        ["css=#w4-w12-0\\[0\\]", "css:finder"],
+        ["xpath=//input[@id='w4-w12-0[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='w4-w12']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "puma"
+    }, {
+      "id": "0697323e-6bcc-4100-abb5-27980e7be868",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1643217-2891-4aca-93fb-7ad0c2f0cb5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-searchable-list__fieldset > .x-refine__main__list--value:nth-child(6) .x-refine__select__svg > .cbx",
+      "targets": [
+        ["css=.x-searchable-list__fieldset > .x-refine__main__list--value:nth-child(6) .x-refine__select__svg > .cbx", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[15]", "xpath:attributes"],
+        ["xpath=//div[@id='w4-w12']/ul/li[6]/div/a/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[6]/div/a/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebecf0ae-17b9-40fa-8c11-ee3134c11e59",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#w9 .srp-controls__control--legacy",
+      "targets": [
+        ["css=#w9 .srp-controls__control--legacy", "css:finder"],
+        ["xpath=//div[@id='w9']/button/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2434764-8103-4243-8057-46a07a02e0e5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Price + Shipping: lowest first')]",
+      "targets": [
+        ["css=.btn:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='w9']/div/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Price + Shipping: lowest first')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f3dc93f-9791-40b3-9356-bc394d2e08ac",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb444dde-4f17-4fe3-a355-361757829962",
+      "comment": "",
+      "command": "click",
+      "target": "css=.srp-carousel-list__item:nth-child(5) .srp-carousel-list__item-link > div",
+      "targets": [
+        ["css=.srp-carousel-list__item:nth-child(5) .srp-carousel-list__item-link > div", "css:finder"],
+        ["xpath=//div[@id='srp-river-results-query_answer1-w0-x-carousel-items']/ul/li[5]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[5]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ceb9992-8808-42d1-982b-79303dadc513",
+      "comment": "",
+      "command": "click",
+      "target": "css=#srp-river-results-listing1 .s-item__title",
+      "targets": [
+        ["css=#srp-river-results-listing1 .s-item__title", "css:finder"],
+        ["xpath=//li[@id='srp-river-results-listing1']/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'PUMA Men Shoes 350734 04 Black White Fashion Sneaker Size 7.5 Sports Life Style')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd64ac21-304c-4954-aaa5-b6589d95b42c",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1936179-bad5-4e67-ad27-829df65f812c",
+      "comment": "",
+      "command": "click",
+      "target": "id=smtBackToAnchor",
+      "targets": [
+        ["id=smtBackToAnchor", "id"],
+        ["linkText=Back to search results", "linkText"],
+        ["css=#smtBackToAnchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to search results')]", "xpath:link"],
+        ["xpath=//a[@id='smtBackToAnchor']", "xpath:attributes"],
+        ["xpath=//li[@id='vi-brumb-frstCol']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:history.go(-1)')]", "xpath:href"],
+        ["xpath=//td[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to search results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e2d18a5-a31b-4d91-8755-af496928dffa",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f68be8a-c164-491f-bd24-75c2bc231ce1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#srp-river-results-listing2 .s-item__title",
+      "targets": [
+        ["css=#srp-river-results-listing2 .s-item__title", "css:finder"],
+        ["xpath=//li[@id='srp-river-results-listing2']/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Puma Future R698 Lite Mens Trainers Running Shoes Beige Blue 354999 03 B82D')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "415cb940-a96d-428b-908e-297ae68d3a0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=smtBackToAnchor",
+      "targets": [
+        ["id=smtBackToAnchor", "id"],
+        ["linkText=Back to search results", "linkText"],
+        ["css=#smtBackToAnchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to search results')]", "xpath:link"],
+        ["xpath=//a[@id='smtBackToAnchor']", "xpath:attributes"],
+        ["xpath=//li[@id='vi-brumb-frstCol']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:history.go(-1)')]", "xpath:href"],
+        ["xpath=//td[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to search results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aacd291-9564-4c02-a3ee-db1e3fc9514b",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e0523bb-6c5f-4e0d-af65-501b6a9b8693",
+      "comment": "",
+      "command": "click",
+      "target": "css=#srp-river-results-listing3 .s-item__title",
+      "targets": [
+        ["css=#srp-river-results-listing3 .s-item__title", "css:finder"],
+        ["xpath=//li[@id='srp-river-results-listing3']/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Puma Soligo Lo Mens Leather Skater Sneakers Shoes - Black')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b35c3699-dbc4-48bc-afd3-41caa2dd9c34",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0f72bd2-6ae6-4088-be24-7ca7c16b0e52",
+      "comment": "",
+      "command": "click",
+      "target": "id=smtBackToAnchor",
+      "targets": [
+        ["id=smtBackToAnchor", "id"],
+        ["linkText=Back to search results", "linkText"],
+        ["css=#smtBackToAnchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to search results')]", "xpath:link"],
+        ["xpath=//a[@id='smtBackToAnchor']", "xpath:attributes"],
+        ["xpath=//li[@id='vi-brumb-frstCol']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:history.go(-1)')]", "xpath:href"],
+        ["xpath=//td[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to search results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58193f80-bae3-4e08-8ef0-13c1d6a9980a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#srp-river-results-listing4 .s-item__title",
+      "targets": [
+        ["css=#srp-river-results-listing4 .s-item__title", "css:finder"],
+        ["xpath=//li[@id='srp-river-results-listing4']/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Puma Re-Suede Mens Trainers Lace Up Low Top Shoes Black Olive 353486 08 B82D')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "713c6070-318b-4f0e-b05c-9a518479c84a",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a1ba6c6-aaed-4682-8419-05d8b99b370c",
+      "comment": "",
+      "command": "click",
+      "target": "id=smtBackToAnchor",
+      "targets": [
+        ["id=smtBackToAnchor", "id"],
+        ["linkText=Back to search results", "linkText"],
+        ["css=#smtBackToAnchor", "css:finder"],
+        ["xpath=//a[contains(text(),'Back to search results')]", "xpath:link"],
+        ["xpath=//a[@id='smtBackToAnchor']", "xpath:attributes"],
+        ["xpath=//li[@id='vi-brumb-frstCol']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:history.go(-1)')]", "xpath:href"],
+        ["xpath=//td[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Back to search results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca1eb1c4-fd03-4420-8038-bfc5f104fed5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#srp-river-results-listing5 .s-item__title",
+      "targets": [
+        ["css=#srp-river-results-listing5 .s-item__title", "css:finder"],
+        ["xpath=//li[@id='srp-river-results-listing5']/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[5]/div/div[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Puma Faas 350 Mens Trainers Running Shoes Orange Lace Up Fitness 186140 12 B39A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f9e0835-e5b2-4ef6-9754-68e695ab33a6",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2509298a-5da7-40e1-b996-1a4564f12041",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ffc9a0dd-c414-4585-ac83-bf16eb8d5ae3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fe3308d6-d01e-444f-af89-28c5bd50fe12"]
+  }],
+  "urls": ["https://www.ebay.com/"],
+  "plugins": []
+}
